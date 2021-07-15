@@ -1,0 +1,24 @@
+{
+  "name": "xinfin-blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber": "^1.1.0",
+    "ethers": "^5.3.1",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "hbs": "^4.1.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.7"
+  }
+}
